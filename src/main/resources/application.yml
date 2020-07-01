@@ -1,0 +1,6 @@
+spring:
+ datasource:    url: jdbc:mysql://localhost:3306/likki_bank_sol?useSSL=false
+    username: root
+    password: password
+     mvc:    view:      prefix: /WEB-INF/jsp/
+      suffix: .jsp
